@@ -1,7 +1,11 @@
-Добрый день!
+Good day!
 
 
-Я файл для проверки загрузки файлов с сайта:)
 
 
-Досвидания!!
+I am a file for checking file downloads from the site :)
+
+
+
+
+Bye!!

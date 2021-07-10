@@ -1172,13 +1172,13 @@ body.ie ._ibg img {
   background-color: #ffc600;
 }
 
-.footer__social img {
+.footer__social a img {
   -webkit-transition: all 0.6s ease 0s;
   -o-transition: all 0.6s ease 0s;
   transition: all 0.6s ease 0s;
 }
 
-.footer__social img:hover {
+.footer__social a img:hover {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -2406,6 +2406,17 @@ body.ie ._ibg img {
   line-height: 1.2;
   font-weight: 600;
   color: #000000;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.contacts__button:hover {
+  background-color: #000;
+  color: #ffc600;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .contacts__contact {
@@ -2496,13 +2507,13 @@ body.ie ._ibg img {
   margin-top: 75px;
 }
 
-.contacts__social img {
+.contacts__social a img {
   -webkit-transition: all 0.6s ease 0s;
   -o-transition: all 0.6s ease 0s;
   transition: all 0.6s ease 0s;
 }
 
-.contacts__social img:hover {
+.contacts__social a img:hover {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);

@@ -890,21 +890,71 @@ body.ie ._ibg img {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #fff;
+  background-color: #161616;
   padding: 50px;
   width: 100%;
   max-width: 800px;
 }
 
 .popup__close {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
   cursor: pointer;
   z-index: 30;
   background: url("../img/icons/close.svg") 0 0 no-repeat;
+}
+
+.popup__text {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.popup__text::first-letter {
+  font-size: 50px;
+  color: #ffc600;
+}
+
+.popup__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 108px;
+  height: 33px;
+  background-color: #ffc600;
+  text-transform: uppercase;
+  margin-top: 20px;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.popup__link {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #000000;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.popup__link:hover {
+  background-color: #000000;
+  color: #ffc600;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
 }
 
 .header {
